@@ -16,7 +16,7 @@ for (var i = 0; i < 256; i++) {
         gridBox.style.backgroundColor = randomColor;
         setTimeout(() => {
             gridBox.style.backgroundColor = 'white';
-        }, 5000);
+        }, 10000);
     });
 }
 
