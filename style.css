@@ -1,4 +1,16 @@
-.container {
+#container {
     margin: 0%;
     border: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100vw / 16);
+    height: calc(100vh / 16);
+    border: 1px;
+    border-color: black;
+
 }
